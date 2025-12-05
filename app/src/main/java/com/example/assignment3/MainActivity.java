@@ -20,5 +20,6 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        String testKey = BuildConfig.GOOGLE_MAPS_API_KEY;
     }
 }
